@@ -1,0 +1,45 @@
+diff --git a/src/data_dirs_test.txt b/src/data_dirs_test.txt
+index d5a4f53..e6f3ec4 100644
+--- a/src/data_dirs_test.txt
++++ b/src/data_dirs_test.txt
+@@ -1,6 +1 @@
+ ../resources/data/python/final/jsonl/test
+-../resources/data/javascript/final/jsonl/test
+-../resources/data/java/final/jsonl/test
+-../resources/data/php/final/jsonl/test
+-../resources/data/ruby/final/jsonl/test
+-../resources/data/go/final/jsonl/test
+\ No newline at end of file
+diff --git a/src/data_dirs_train.txt b/src/data_dirs_train.txt
+index 2882754..6fa0d2f 100644
+--- a/src/data_dirs_train.txt
++++ b/src/data_dirs_train.txt
+@@ -1,6 +1 @@
+ ../resources/data/python/final/jsonl/train
+-../resources/data/javascript/final/jsonl/train
+-../resources/data/java/final/jsonl/train
+-../resources/data/php/final/jsonl/train
+-../resources/data/ruby/final/jsonl/train
+-../resources/data/go/final/jsonl/train
+\ No newline at end of file
+diff --git a/src/data_dirs_valid.txt b/src/data_dirs_valid.txt
+index 949e70a..c1e41be 100644
+--- a/src/data_dirs_valid.txt
++++ b/src/data_dirs_valid.txt
+@@ -1,6 +1 @@
+ ../resources/data/python/final/jsonl/valid
+-../resources/data/javascript/final/jsonl/valid
+-../resources/data/java/final/jsonl/valid
+-../resources/data/php/final/jsonl/valid
+-../resources/data/ruby/final/jsonl/valid
+-../resources/data/go/final/jsonl/valid
+\ No newline at end of file
+diff --git a/src/wandb/settings b/src/wandb/settings
+index a04a8ea..5d7597b 100644
+--- a/src/wandb/settings
++++ b/src/wandb/settings
+@@ -1,3 +1,4 @@
+ [default]
+ project = CodeSearchNet
++entity = sharvil95
+ 

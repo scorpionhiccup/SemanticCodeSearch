@@ -1,3 +1,18 @@
+resources/saved_models/*
+resources/saved_models/
+
+resources/data/*
+resources/data/
+
+data/github
+data/github/*
+
+data/
+data/*
+
+resources/baseline/selfatt_predictions.csv
+resources/*.csv
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

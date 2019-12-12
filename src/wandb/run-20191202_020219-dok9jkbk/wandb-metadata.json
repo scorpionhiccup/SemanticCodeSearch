@@ -1,0 +1,30 @@
+{
+    "root": "/home/dev",
+    "program": "train.py",
+    "git": {
+        "remote": "https://github.com/github/CodeSearchNet.git",
+        "commit": "d723b5803d00c2d39f63b2797bedde4c68af89ec"
+    },
+    "email": null,
+    "startedAt": "2019-12-02T02:02:19.840095",
+    "host": "sashpc",
+    "username": "root",
+    "executable": "/usr/bin/python3",
+    "os": "Linux-5.0.0-36-generic-x86_64-with-Ubuntu-16.04-xenial",
+    "python": "3.6.8",
+    "gpu": "GeForce GTX 1650",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": "9.0.176",
+    "args": [
+        "--model",
+        "convselfatt"
+    ],
+    "state": "failed",
+    "jobType": null,
+    "mode": "run",
+    "name": "convselfatt-2019-12-02-02-02-19",
+    "project": "CodeSearchNet",
+    "heartbeatAt": "2019-12-02T02:14:31.167375",
+    "exitcode": 1
+}

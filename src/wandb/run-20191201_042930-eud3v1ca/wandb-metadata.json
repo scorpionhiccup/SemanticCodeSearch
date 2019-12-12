@@ -1,0 +1,29 @@
+{
+    "root": "/home/dev",
+    "program": "train.py",
+    "git": {
+        "remote": "https://github.com/github/CodeSearchNet.git",
+        "commit": "d723b5803d00c2d39f63b2797bedde4c68af89ec"
+    },
+    "email": null,
+    "startedAt": "2019-12-01T04:29:39.972522",
+    "host": "sashpc",
+    "username": "root",
+    "executable": "/usr/bin/python3",
+    "os": "Linux-5.0.0-36-generic-x86_64-with-Ubuntu-16.04-xenial",
+    "python": "3.6.8",
+    "gpu": "GeForce GTX 1650",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": "9.0.176",
+    "args": [
+        "--testrun"
+    ],
+    "state": "finished",
+    "jobType": null,
+    "mode": "dryrun",
+    "name": "neuralbowmodel-2019-12-01-04-29-30",
+    "project": "CodeSearchNet",
+    "heartbeatAt": "2019-12-01T04:46:28.259898",
+    "exitcode": 0
+}
