@@ -60,4 +60,18 @@ class ConvolutionSeqEncoder(MaskedSeqEncoder):
                                            sequence_lengths=seq_token_lengths,
                                            sequence_token_masks=seq_token_mask)
 
-
+    def __add_position_encoding(self, seq_inputs: tf.Tensor) -> tf.Tensor:
+        position_encoding = self.get_hyper('1dcnn_position_encoding').lower()
+        if position_encoding == 'none':
+            return seq_inputs
+        elif position_encoding == 'learned':
+            position_embeddings = \
+                tf.get_variable(name='position_embeddings',
+                                initializer=tf.truncated_normal_initializer(stddev=0.02),
+                                shape=[self.get_hyper('max_num_tokens'),
+                                       self.get_hyper('token_embedding_size')],
+                                )
+            # Add batch dimension to position embeddings to make broadcasting work, then add:
+            return seq_inputs + tf.expand_dims(position_embeddings, axis=0)
+        else:
+            raise ValueError("Unknown position encoding '%s'!" % position_encoding)
